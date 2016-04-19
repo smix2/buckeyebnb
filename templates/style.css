@@ -8,7 +8,15 @@ div, section, main, aside, header, footer {
   border: 1px solid lightgray;
   padding: .5em;
   margin-bottom: 1em;
+  background-color: purple;
 }
+
+header, footer {
+  font-weight: bold;
+  color: gray;
+
+}
+
 /*image slider*/
 .carousel-cell {
     width: 100%;
