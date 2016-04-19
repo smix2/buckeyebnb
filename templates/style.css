@@ -1,21 +1,29 @@
+
 body {
   max-width: 1000px;
   padding: 1em;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Arial,Helvetica, sans-serif;
+}
+
+svg {
+  width: 80px;
+  margin: 0 auto;
+
 }
 
 div, section, main, aside, header, footer {
   border: 1px solid lightgray;
   padding: .5em;
   margin-bottom: 1em;
-  background-color: purple;
 }
 
 header, footer {
+  background-color: #61574B;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: gray;
-
+  color: white;
 }
+
 
 /*image slider*/
 .carousel-cell {
@@ -100,6 +108,11 @@ a.menu-link span:nth-child(3) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
+nav {
+  background-color: #AD9378;
+  color: white;
+}
+
 nav[role=navigation] {
             clear: both;
             -webkit-transition: all 0.3s ease-out;
@@ -150,7 +163,39 @@ nav[role=navigation] {
         /*date picker*/
         @charset "UTF-8";
 
-/*!
+h1{
+    font-size: 2.3em;
+    letter-spacing: 1px;
+    font-family: Georgia, Garamond, serif;
+    font-weight: bold;
+    margin-top: 2em;
+    color: #61574B;
+}
+
+h2 {
+  font-family: Georgia, Garamond, serif;
+  font-weight: bold;
+  color: #6297AB;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #6297AB;
+
+}
+
+aside{
+  border: 3px solid #6297AB;
+  padding: .5em;
+  margin-bottom: 1em;
+}
+
+
+
+/* DATE PICKER
  * Pikaday
  * Copyright © 2014 David Bushell | BSD & MIT license | http://dbushell.com/
  */
