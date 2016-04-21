@@ -8,7 +8,6 @@ body {
 svg {
   width: 80px;
   margin: 0 auto;
-
 }
 
 
@@ -173,7 +172,7 @@ h2 {
   font-family: Georgia, Garamond, serif;
   font-weight: bold;
   color: #6297AB;
-  margin-top: 1em;
+  margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
 
