@@ -11,11 +11,6 @@ svg {
 
 }
 
-div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
-}
 
 header, footer {
   background-color: #61574B;
@@ -193,6 +188,11 @@ aside{
   border: 3px solid #6297AB;
   padding: .5em;
   margin-bottom: 1em;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
 
 
@@ -460,4 +460,8 @@ http://nicolasgallagher.com/micro-clearfix-hack/
   top: 0;
   height: 100%;
   width: 100%;
+}
+
+*{
+  box-sizing: border-box;
 }
