@@ -528,6 +528,14 @@ http://nicolasgallagher.com/micro-clearfix-hack/
   box-sizing: border-box;
 }
 
+form {
+  padding: 20px;
+}
+
+table{
+  width: 100%;
+}
+
 @media screen and (min-width: 800px){
   .small-buttons {
     display:none;
