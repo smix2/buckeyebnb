@@ -1,4 +1,19 @@
 
+/*clearfix*/
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1; /* IE < 8 */
+}
+
 body {
   max-width: 1000px;
   padding: 1em;
@@ -28,7 +43,7 @@ header {
 footer {
   background-color: #61574B;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-weight: normal;
   padding: .5em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -36,8 +51,14 @@ footer {
 }
 
 .footerinfo {
-  margin-right: 3%;
-  
+  margin-top: 1em;
+float: right;
+text-align: left;
+color: white;
+}
+
+.footerinfo p {
+  margin: 0;
 }
 
 
