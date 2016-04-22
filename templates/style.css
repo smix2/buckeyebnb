@@ -15,9 +15,13 @@
 }
 
 body {
-  max-width: 1000px;
-  padding: 1em;
+  margin: 0;
   font-family: Arial,Helvetica, sans-serif;
+}
+
+main {
+  max-width: 800px;
+  padding:1em;
 }
 
 .logo {
@@ -27,17 +31,16 @@ body {
   }
 
 
-
 header {
   background-color: #61574B;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: white;
-  padding: .5em, .5em, 0,.5em;
   margin-top: 1em;
   margin-bottom: 1em;
   text-align: left;
   width: 100%;
+  position: relative;
 }
 
 footer {
@@ -52,13 +55,16 @@ footer {
 
 .footerinfo {
   margin-top: 1em;
-float: right;
 text-align: left;
 color: white;
+margin-left: 1em;
+float: left;
+margin-bottom: 1em;
 }
 
 .footerinfo p {
   margin: 0;
+
 }
 
 
@@ -164,7 +170,7 @@ nav[role=navigation] {
             max-height: 0;
         }
         nav[role=navigation].active {
-            max-height: 15em;
+            max-height: 25em;
         }
         nav[role=navigation] ul {
             margin: 0;
@@ -197,9 +203,6 @@ nav[role=navigation] {
                 border: 0;
             }
         }
-
-        /*date picker*/
-        @charset "UTF-8";
 
 h1{
     font-size: 2.3em;
@@ -244,6 +247,15 @@ img {
   padding: .75em;
   margin-top: 1em;
   margin-bottom: 1.5em;
+  margin-left: 1em;
+
+}
+
+.secondarynav {
+  padding: 0;
+  margin:0 auto;
+  background-color: white;
+  text-align: center;
 }
 
 .button {
@@ -528,10 +540,22 @@ http://nicolasgallagher.com/micro-clearfix-hack/
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 600px){
+.footerinfo {
+float: right;
+}
+}
+
 @media screen and (min-width: 800px){
-  .small-buttons {
-    display:none;
+  .secondarynav{
+      position: absolute;
+      z-index: 500;
+      top: 0;
+      right: 0;
+      background-color: transparent;
+
   }
+
   main {
     width: 80%;
     margin: 0 auto;
