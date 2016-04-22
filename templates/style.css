@@ -540,10 +540,19 @@ http://nicolasgallagher.com/micro-clearfix-hack/
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 600px){
 .footerinfo {
 float: right;
 }
+=======
+form {
+  padding: 20px;
+}
+
+table{
+  width: 100%;
+>>>>>>> origin/gh-pages
 }
 
 @media screen and (min-width: 800px){
