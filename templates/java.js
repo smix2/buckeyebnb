@@ -4502,3 +4502,4 @@ $menulink.click(function() {
 // Call HTML Element named "date" in the element //
 
 var dateObject = pikadayResponsive(document.getElementById("date"));
+var dateObject = pikadayResponsive(document.getElementById("date2"));
