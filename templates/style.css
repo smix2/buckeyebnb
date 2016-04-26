@@ -567,6 +567,13 @@ http://nicolasgallagher.com/micro-clearfix-hack/
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 570px){
+  .carousel {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 600px){
 .footerinfo {
 float: right;
