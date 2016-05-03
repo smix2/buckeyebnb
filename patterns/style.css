@@ -54,6 +54,33 @@ footer {
   width: 100%;
 }
 
+.swatch-blue {
+  background-color: #6297AB;
+}
+.swatch-brown {
+  background-color: #61574B;
+}
+.swatch-tan {
+  background-color: #AD9378;
+}
+
+.swatch{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: 1em 1.5em;
+}
+
+.georgia{
+  font-family: georgia;
+}
+.arial{
+  font-family: arial;
+}
+.garamond{
+  font-family: garamond;
+}
+
 .footerinfo {
   margin-top: 1em;
 text-align: left;
