@@ -20,7 +20,7 @@ body {
 }
 
 main {
-  max-width: 800px;
+  max-width: 1000px;
   padding:1em;
 }
 
@@ -61,6 +61,7 @@ color: white;
 margin-left: 1em;
 float: left;
 margin-bottom: 1em;
+margin-right: 3%;
 }
 
 .footerinfo p {
@@ -605,6 +606,9 @@ th{
 
 .available{
   color: #6297AB;
+}
+.reservationtable{
+  overflow-x: scroll;
 }
 
 @media screen and (min-width: 800px){
