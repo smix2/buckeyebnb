@@ -586,10 +586,25 @@ float: right;
 
 form {
   padding: 20px;
+  width: 80%;
 }
 
 table{
-  width: 100%;
+  width: 80%;
+  border: 2px solid #6297AB;
+}
+
+th, td{
+  padding:10px;
+  font-size: 80%;
+}
+
+th{
+  background-color: #efefef;
+}
+
+.available{
+  color: #6297AB;
 }
 
 @media screen and (min-width: 800px){
